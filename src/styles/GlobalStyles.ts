@@ -38,7 +38,7 @@ export default createGlobalStyle`
         
         --link: #5d80d6;
 
-        --labican: #6633cc;
+        --labican: #7289da;
 
         
     }
