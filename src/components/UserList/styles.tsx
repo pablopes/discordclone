@@ -84,6 +84,5 @@ export const User = styled.div`
         font-weight: bold;
         font-size: 11px;
     }
-
 `;
 

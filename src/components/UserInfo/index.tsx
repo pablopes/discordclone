@@ -8,7 +8,7 @@ const UserInfo: React.FC = () => {
             <Profile>
                 <Avatar />
                 <UserData>
-                    <strong>Pablo Lopes</strong>
+                    <strong>Harry Potter</strong>
                     <span>#5442</span>    
                 </UserData>
             </Profile>
