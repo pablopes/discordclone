@@ -19,15 +19,14 @@ const UserRow: React.FC<UserProps> = ({ nickname, isBot }) => {
 const UserList: React.FC = () => {
     return (
         <Container>
-            <Role>Disponível - 1</Role>
-            <UserRow nickname="Pablo Lopes" />
-
-            <Role>Offline - 18</Role>
+            <Role>Disponível - 5</Role>
             <UserRow nickname="Alvo Dumbledore" isBot />
-            <UserRow nickname="Lord Voldemort" isBot />
             <UserRow nickname="Harry Potter" />
             <UserRow nickname="Hermione Granger" />
+            <UserRow nickname="Pablo Lopes" />
             <UserRow nickname="Ron Weasley" />
+            <Role>Offline - 11</Role>
+            <UserRow nickname="Lord Voldemort" isBot />
             <UserRow nickname="Alastor Moody" />
             <UserRow nickname="Andromeda Tonks" />
             <UserRow nickname="Bellatrix Lestrange" />

@@ -6,7 +6,7 @@ import { Container, ExpandIcon, Title} from './styles';
 const ServerName: React.FC = () => {
     return (
        <Container>
-           <Title>Servidor do Pablo</Title>
+           <Title>Escola de Hogwarts</Title>
            <ExpandIcon/>
        </Container> 
     )
