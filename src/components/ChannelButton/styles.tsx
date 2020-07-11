@@ -35,20 +35,19 @@ export const Container = styled.div`
         > div span{
             color: var(--white);
         }
+
+        > div svg{
+            transition: color .2s;
+            color: var(--white);
+        }
     }
 `;
 export const InviteIcon = styled(PersonAdd)`
     width: 18;
     height: 18px;
 
-    color: var(--symbol); 
+    color: transparent;
     cursor: pointer;
-
-    transition: color .2s;
-
-    &:hover{
-        color: var(--white);
-    }
 `;
 export const HashTagIcon = styled(icons.Hashtag)`
    width: 20px;
@@ -62,13 +61,7 @@ export const SettingsIcon = styled(Settings)`
 
     margin-left: 4px;
 
-    color: var(--symbol); 
+    color: transparent; 
     cursor: pointer;
-
-    transition: color .2s;
-
-    &:hover{
-        color: var(--white);
-    }
 `;
 
