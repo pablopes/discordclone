@@ -33,4 +33,8 @@ export const AddCategoryIcon = styled(Add)`
    color: var(--symbol);
    cursor: pointer;
 
+   &:hover{
+       color: var(--white);
+   }
+
 `;
